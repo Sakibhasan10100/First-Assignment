@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* google fonts link here */
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+.btn{
+    padding: 20px;
+    background-color: violet;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+.profile-pic{
+    width: 635px;
+    height: 800;
+    margin-right: 150px;
+
+}
+.header{
+    background-color: rgba(255, 176, 202, 0.39);    
+    background-size: cover;   
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    padding: 10px;
+    width: 50%;
+}
+.photo-title{
+    height: 100vh;
+    text-align: center;
+    padding: 150px  0px 30px 0px;
+}
+.description-two{
+    padding-top: 20px;
+}
+.image{
+    display:flex;
+    padding-top: 40px;
+    justify-content: center;
+
+}
+/* bannar-section-end */
+/* bonous-section-start */
+
+
+.bonous-top-con {
+    padding: 20px;
+    text-align: center;
+    margin-top: 34px;
+}
+.bonous-top-con h3 {
+    font-size: 34px;
+    margin-bottom: 14px;
+}
+
+.bonous-main {
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+}
+
+.bonous-box {
+    background-color: #f2dee7;
+    width: 280px;
+    height: 303px;
+    text-align: center;
+    border-radius: 143px 143px 0px 0px;
+}
+.bonous-box img{
+    width: 110px;
+    margin-top: 60px;
+    height: 242px;
+
+}
+.bonous-content {
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 117px;
+    margin: auto;
+    margin-top: 10px;
+}
+/* bonous-section-end */
+/* signup-section start*/
+.singup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    gap: 160px;
+    background-color: rgba(229,84,115, 0.05);
+    margin-top: 79px;
+}
+
+.singup-content h3 {
+    font-size: 43px;
+    margin-bottom: 10px;
+}
+.singup-content p {
+    font-size: 19px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+.singup-content span{
+    color: #a8669c;
+}
+.btn {
+    padding: 20px;
+    background-color: violet;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-top: 10px;
+    text-align: center;
+    width: 157px;
+    margin: auto;
+    margin-left: 184px;
+    text-transform: capitalize;
+    margin-top: 19px;
+}
+/* signup-section end*/
+/* instram-section-start */
+.instagram {
+    text-align: center;
+    margin-top: 84px;
+}
+.instagram h4 {
+    font-size: 18px;
+}
+.instagram h3 {
+    font-size: 40px;
+    padding: 10px;
+}
+.instagram-main {
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    margin-top: 98px;
+}
+
+.instagram-box img{
+    width: 345px;
+    height: 396px;
+
+}
+/* instram-section-end*/
+/* form-section-start */
+.form-section {
+    padding: 71px 234px;
+}
+.form-main {
+    background-image: url(./Flower\ Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 106px;
+    text-align: center;
+}
+.form-main h3 {
+    font-size: 33px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.form-main h5 {
+    font-size: 15px;
+}
+.emal-btn {
+    border: none;
+    width: 50%;
+    height: 15px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.btn {
+    padding: 16px;
+    background-color: violet;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    margin-top: 10px;
+    text-align: center;
+    width: 157px;
+    margin: auto;
+    margin-left: 23px;
+    text-transform: capitalize;
+    margin-top: 19px;
+}
+footer{
+    text-align: center;
+    padding: 40px 50px;
+    background-color: black;
+    color: white;
+
+}
+footer h4 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+footer  span{
+    color: #e55473;
+}
+footer h5 {
+    font-size: 15px;
+    margin-bottom: 31px;
+    line-height: 21px;
+}
+footer h6 {
+    color: gray;
+    font-size: 12px;
+}
